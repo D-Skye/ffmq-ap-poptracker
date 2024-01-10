@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Toggle",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "toggle"
+    },
+    {
+        "name": "Progressive",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "progressive",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "progressive_2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consumable",
+        "type": "consumable",
+        "img": "images/items/consumable.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "consumable"
+    },
+    {
+        "name": "Progressive Toggle",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "progressive_toggle",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "progressive_toggle_2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Captain's Cap",
+        "type": "toggle",
+        "img": "images/items/captains_cap.png",
+        "codes": "captainscap"
+    },
+    {
+        "name": "Elixir",
+        "type": "toggle",
+        "img": "images/items/elixir.png",
+        "codes": "elixiroggle"
+    },
+    {
+        "name": "Gemini Crest",
+        "type": "toggle",
+        "img": "images/items/gemini_crest.png",
+        "codes": "gemini"
+    },
+    {
+        "name": "Libra Crest",
+        "type": "toggle",
+        "img": "images/items/libra_crest.png",
+        "codes": "libra"
+    },
+    {
+        "name": "Magic Mirror",
+        "type": "toggle",
+        "img": "images/items/magic_mirror.png",
+        "codes": "magicmirror"
+    },
+    {
+        "name": "Mask",
+        "type": "toggle",
+        "img": "images/items/mask.png",
+        "codes": "mask"
+    },
+    {
+        "name": "Mobius Crest",
+        "type": "toggle",
+        "img": "images/items/mobius_crest.png",
+        "codes": "mobius"
+    },
+    {
+        "name": "Multi-Key",
+        "type": "toggle",
+        "img": "images/items/multi_key.png",
+        "codes": "multikey"
+    },
+    {
+        "name": "River Coin",
+        "type": "toggle",
+        "img": "images/items/river_coin.png",
+        "codes": "rivercoin"
+    },
+    {
+        "name": "Sand Coin",
+        "type": "toggle",
+        "img": "images/items/sand_coin.png",
+        "codes": "sandcoin"
+    },
+    {
+        "name": "Sky Coin",
+        "type": "toggle",
+        "img": "images/items/sky_coin.png",
+        "codes": "skycoin"
+    },
+    {
+        "name": "Sun Coin",
+        "type": "toggle",
+        "img": "images/items/sun_coin.png",
+        "codes": "suncoin"
+    },
+    {
+        "name": "Thunder Rock",
+        "type": "toggle",
+        "img": "images/items/thunder_rock.png",
+        "codes": "thunderrock"
+    },
+    {
+        "name": "Tree Wither",
+        "type": "toggle",
+        "img": "images/items/tree_wither.png",
+        "codes": "treewither"
+    },
+    {
+        "name": "Venus Key",
+        "type": "toggle",
+        "img": "images/items/venus_key.png",
+        "codes": "venuskey"
+    },
+    {
+        "name": "Wakewater",
+        "type": "toggle",
+        "img": "images/items/wakewater.png",
+        "codes": "wakewater"
+    }
+]
