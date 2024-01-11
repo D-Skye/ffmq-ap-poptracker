@@ -68,13 +68,13 @@
         "name": "Gemini Crest",
         "type": "toggle",
         "img": "images/items/gemini_crest.png",
-        "codes": "gemini"
+        "codes": "geminicrest"
     },
     {
         "name": "Libra Crest",
         "type": "toggle",
         "img": "images/items/libra_crest.png",
-        "codes": "libra"
+        "codes": "libracrest"
     },
     {
         "name": "Magic Mirror",
@@ -92,7 +92,7 @@
         "name": "Mobius Crest",
         "type": "toggle",
         "img": "images/items/mobius_crest.png",
-        "codes": "mobius"
+        "codes": "mobiuscrest"
     },
     {
         "name": "Multi-Key",
@@ -147,5 +147,83 @@
         "type": "toggle",
         "img": "images/items/wakewater.png",
         "codes": "wakewater"
+    },
+    {
+        "name": "Sword",
+        "type": "progressive",
+        "codes": "sword",
+        "stages": [
+            {
+                "img": "images/items/steelsword.png",
+                "name": "Steel Sword"
+            },
+            {
+                "img": "images/items/knightssword.png",
+                "name": "Knight's Sword"
+            },
+            {
+                "img": "images/items/excalibur.png",
+                "name": "Excalibur"
+            }
+        ]
+    },
+    {
+        "name": "Axe",
+        "type": "progressive",
+        "codes": "axe",
+        "stages": [
+            {
+                "img": "images/items/axe.png",
+                "name": "Axe"
+            },
+            {
+                "img": "images/items/battleaxe.png",
+                "name": "Battle Axe"
+            },
+            {
+                "img": "images/items/giantsaxe.png",
+                "name": "Giant's Axe"
+            }
+        ]
+    },
+    {
+        "name": "Claw",
+        "type": "progressive",
+        "codes": "claw",
+        "stages": [
+            {
+                "img": "images/items/catclaw.png",
+                "name": "Catclaw"
+            },
+            {
+                "img": "images/items/charmclaw.png",
+                "name": "Charm Claw"
+            },
+            {
+                "img": "images/items/dragonclaw.png",
+                "name": "Dragon Claw",
+                "codes": "dragonclaw"
+            }
+        ]
+    },
+    {
+        "name": "Bomb",
+        "type": "progressive",
+        "codes": "bomb",
+        "stages": [
+            {
+                "img": "images/items/bomb.png",
+                "name": "Bomb"
+            },
+            {
+                "img": "images/items/jumbobomb.png",
+                "name": "Jumbo Bomb"
+            },
+            {
+                "img": "images/items/megagrenade.png",
+                "name": "Mega Grenade",
+                "codes": "megagrenade"
+            }
+        ]
     }
 ]

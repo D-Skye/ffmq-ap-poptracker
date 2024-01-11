@@ -1,15 +1,33 @@
 -- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
--- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
-    end
-    if val then
-        return 1 -- 1 => access is in logic
-    end
-    return 0 -- 0 => no access
+
+function aquaria_access()
+    return (
+        has("sandcoin") or
+        (has("rivercoin") and has("geminicrest")) --fireburg teleport, expert logic?
+    )
+end
+
+function fireburg_access()
+    return (
+        has("rivercoin") or 
+        (has("suncoin") and has("mobiuscrest") and has("multikey") or --windia teleport to locked house, expert logic?
+        (has("sandcoin") and has("geminicrest"))--from aquaria, expert logic?
+    )
+end
+
+function windia_access()
+    return (
+        has("suncoin") or
+        (has("rivercoin") and has("mobiuscrest") and has("multikey")) --fireburg locked house teleport, expert logic?
+    )
+end
+
+function doom_castle_access()
+    return (has($windia_access) and has("mobiuscrest") and has("thunderrock") and has("captainscap"))
+end
+
+-- future expert logic work
+function can_sealed_temple_exit_trick()
 end

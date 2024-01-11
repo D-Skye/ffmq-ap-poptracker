@@ -1,57 +1,545 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Earth Crystal",
         "children": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
-                ],
+                "name": "Level Forest",
                 "sections": [
                     {
-                        "name": "Example Section 1",
-                        "item_count": 1
+                        "name": "Beat Minotaur",
+                        "access_rules": ["treewither"]
                     },
                     {
-                        "name": "Example Section 2",
-                        "item_count": 3
+                        "name": "Free Old Man"
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
+                        "map": "overworld",
+                        "x": 170,
+                        "y": 628
                     }
                 ]
             },
             {
-                "name": "Example Location 2",
-                "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
-                ],
+                "name": "Foresta",
                 "sections": [
                     {
-                        "name": "Example Section 1",
-                        "item_count": 1
+                        "name": "Old Man House Chest",
+                        "access_rules": []
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1500,
+                        "map": "overworld",
+                        "x": 240,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Foresta West Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 74,
+                        "y": 484
+                    }
+                ]
+            },
+            {
+                "name": "Bone Dungeon",
+                "sections": [
+                    {
+                        "name": "B1 - Tristam",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "B1 - Skull Chest",
+                        "access_rules": ["bomb"]
+                    },
+                    {
+                        "name": "B2 - Penultimate Room Chest",
+                        "access_rules": ["bomb"]
+                    },
+                    {
+                        "name": "B2 - Flamerus Rex Chest",
+                        "access_rules": ["bomb"]
+                    },
+                    {
+                        "name": "B2 - Tristam's Treasure Chest",
+                        "access_rules": ["bomb"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 177,
                         "y": 400
                     }
                 ]
-            }            
+            }
+        ]
+    },
+
+    {
+        "name": "Water Crystal",
+        "access_rules": ["$aquaria_access"],
+        "children": [
+            {
+                "name": "Aquaria",
+                "sections": [
+                    {
+                        "name": "Vendor",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 722,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "South of Aquaria Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 682,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Falls Basin",
+                "sections": [
+                    {
+                        "name": "Snow Crab Chest",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 666,
+                        "y": 212
+                    }
+                ]
+            },
+            {
+                "name": "Ice Pyramid",
+                "access_rules": ["sword,[magicmirror]"],
+                "sections": [
+                    {
+                        "name": "1F - East Alcove Chest"
+                    },
+                    {
+                        "name": "4F - Chest"
+                    },
+                    {
+                        "name": "B1 - Chest",
+                        "access_rules": ["bomb"]
+                    },
+                    {
+                        "name": "6F - Ice Golem Chest",
+                        "access_rules": ["bomb,claw"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 658,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "Life Temple",
+                "sections": [
+                    {
+                        "name": "Mysterious Man",
+                        "access_rules": ["libracrest"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 521,
+                        "y": 292
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 586,
+                        "y": 373
+                    }
+                ]
+            },
+            {
+                "name": "Wintry Cave",
+                "sections": [
+                    {
+                        "name": "1F - Phoebe",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "3F - Squidite Chest",
+                        "access_rules": ["claw","bomb"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 817,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "name": "North of Libra Temple Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "access_rules": ["wakewater"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 522,
+                        "y": 243
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Fire Crystal",
+        "access_rules": ["$fireburg_access"],
+        "children": [
+            {
+                "name": "Path to Fireburg Central Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 362,
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Fireburg",
+                "sections": [
+                    {
+                        "name": "Locked House Man",
+                        "access_rules": ["multikey", "suncoin,mobiuscrest"]
+                    },
+                    {
+                        "name": "Reuben's House: Arion",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Tristam",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Vendor",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 274,
+                        "y": 179
+                    }
+                ]
+            },
+            {
+                "name": "Mine",
+                "sections": [
+                    {
+                        "name": "Crescent Room Chest",
+                        "access_rules": ["bomb"]
+                    },
+                    {
+                        "name": "Reuben",
+                        "access_rules": ["megagrenade"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 82,
+                        "y": 107
+                    }
+                ]
+            },
+            {
+                "name": "Mine Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 90,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Volcano",
+                "access_rules": ["[mask]"],
+                "sections": [
+                    {
+                        "name": "Base Chest",
+                        "access_rules": []
+                    },
+                    {
+                        "name": "Medusa Chest",
+                        "access_rules": []
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 330,
+                        "y": 114
+                    }
+                ]
+            },
+            {
+                "name": "Lava Dome",
+                "sections": [
+                    {
+                        "name": "Beyond River Room Chest",
+                        "access_rules": ["megagrenade"]
+                    },
+                    {
+                        "name": "Dualhead Hydra Chest"
+                    },
+                    {
+                        "name": "Gold Bar Room Boulder Chest",
+                        "access_rules": ["megagrenade"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 346,
+                        "y": 91
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "name": "Wind Crystal",
+        "access_rules":["$windia_access"],
+        "children": [
+            {
+                "name": "Alive Forest",
+                "sections": [
+                    {
+                        "name": "Tree Stump Chest",
+                        "access_rules": ["axe"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 553,
+                        "y": 484
+                    }
+                ]
+            },
+            {
+                "name": "Giant Tree",
+                "sections": [
+                    {
+                        "name": "2F - Gidrah Chest",
+                        "access_rules": ["axe,dragonclaw"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 658,
+                        "y": 560
+                    }
+                ]
+            },
+            {
+                "name": "Windia",
+                "sections": [
+                    {
+                        "name": "Kaeli",
+                        "access_rules": ["treewither,elixir"]
+                    },
+                    {
+                        "name": "Vendor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 802,
+                        "y": 547
+                    }
+                ]
+            },
+            {
+                "name": "Mount Gale",
+                "sections": [
+                    {
+                        "name": "Dullahan Chest",
+                        "access_rules": ["dragonclaw"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 906,
+                        "y": 553
+                    }
+                ]
+            },
+            {
+                "name": "Pazuzu's Tower",
+                "access_rules":["dragonclaw"],
+                "sections": [
+                    {
+                        "name": "4F - East Storage Room Chest"
+                    },
+                    {
+                        "name": "6F - Chest"
+                    },
+                    {
+                        "name": "7F - Pazuzu Chest",
+                        "access_rules": ["axe,bomb"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 793,
+                        "y": 455
+                    }
+                ]
+            },
+            {
+                "name": "Spencer's Cave",
+                "access_rules":["thunderrock,megagrenade"],
+                "sections": [
+                    {
+                        "name": "Locked Chest",
+                        "access_rules": ["venuskey"]
+                    },
+                    {
+                        "name": "Mobius Chest",
+                        "access_rules": ["mobiuscrest"]
+                    },
+                    {
+                        "name": "Spencer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 730,
+                        "y": 469
+                    }
+                ]
+            },
+            {
+                "name": "Mac's Ship",
+                "access_rules":["megagrenade,mobiuscrest,thunderrock"],
+                "sections": [
+                    {
+                        "name": "B1 - Mac Room Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 683,
+                        "y": 403
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Focus Tower",
+        "children": [
+            {
+                "name": "Focus Tower",
+                "sections": [
+                    {
+                        "name": "2F - Sand Door Chest",
+                        "access_rules": ["sandcoin"]
+                    },
+                    {
+                        "name": "2F - Back Door Chest",
+                        "access_rules": ["wakewater,$aquaria_access"]
+                    },
+                    {
+                        "name": "2F - Venus Chest",
+                        "access_rules": ["wakewater,$aquaria_access"]
+                    },
+                    {
+                        "name": "Sun Door Chest",
+                        "access_rules": ["suncoin", "[$windia_access]"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 417,
+                        "y": 454
+                    }
+                ]
+            },
+            {
+                "name": "Doom Castle",
+                "access_rules":["$doom_castle_access"],
+                "sections": [
+                    {
+                        "name": "Southeast Chest",
+                        "access_rules": ["bomb"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 393,
+                        "y": 614
+                    }
+                ]
+            }
         ]
     }
 ]
