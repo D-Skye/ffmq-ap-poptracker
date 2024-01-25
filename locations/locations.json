@@ -25,8 +25,7 @@
                 "name": "Foresta",
                 "sections": [
                     {
-                        "name": "Old Man House Chest",
-                        "access_rules": []
+                        "name": "Old Man House Chest"
                     }
                 ],
                 "map_locations": [
@@ -41,8 +40,7 @@
                 "name": "Foresta West Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield",
-                        "access_rules": []
+                        "name": "Clear Battlefield"
                     }
                 ],
                 "map_locations": [
@@ -57,8 +55,7 @@
                 "name": "Bone Dungeon",
                 "sections": [
                     {
-                        "name": "B1 - Tristam",
-                        "access_rules": []
+                        "name": "B1 - Tristam"
                     },
                     {
                         "name": "B1 - Skull Chest",
@@ -96,8 +93,7 @@
                 "name": "Aquaria",
                 "sections": [
                     {
-                        "name": "Vendor",
-                        "access_rules": []
+                        "name": "Vendor"
                     }
                 ],
                 "map_locations": [
@@ -112,8 +108,7 @@
                 "name": "South of Aquaria Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield",
-                        "access_rules": []
+                        "name": "Clear Battlefield"
                     }
                 ],
                 "map_locations": [
@@ -128,8 +123,7 @@
                 "name": "Falls Basin",
                 "sections": [
                     {
-                        "name": "Snow Crab Chest",
-                        "access_rules": []
+                        "name": "Snow Crab Chest"
                     }
                 ],
                 "map_locations": [
@@ -192,8 +186,7 @@
                 "name": "Wintry Cave",
                 "sections": [
                     {
-                        "name": "1F - Phoebe",
-                        "access_rules": []
+                        "name": "1F - Phoebe"
                     },
                     {
                         "name": "3F - Squidite Chest",
@@ -254,16 +247,13 @@
                         "access_rules": ["multikey", "suncoin,mobiuscrest"]
                     },
                     {
-                        "name": "Reuben's House: Arion",
-                        "access_rules": []
+                        "name": "Reuben's House: Arion"
                     },
                     {
-                        "name": "Tristam",
-                        "access_rules": []
+                        "name": "Tristam"
                     },
                     {
-                        "name": "Vendor",
-                        "access_rules": []
+                        "name": "Vendor"
                     }
                 ],
                 "map_locations": [
@@ -314,12 +304,10 @@
                 "access_rules": ["[mask]"],
                 "sections": [
                     {
-                        "name": "Base Chest",
-                        "access_rules": []
+                        "name": "Base Chest"
                     },
                     {
-                        "name": "Medusa Chest",
-                        "access_rules": []
+                        "name": "Medusa Chest"
                     }
                 ],
                 "map_locations": [

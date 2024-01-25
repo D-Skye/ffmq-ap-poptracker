@@ -1,5 +1,3 @@
-// sets layouts for shadred items grids
-// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 {
     "shared_item_grid": {
         "type": "array",
@@ -13,16 +11,40 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "10, 10",
+                        "item_margin": "2, 2",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "toggle",
-                                "progressive"           
+                                "sandcoin",
+                                "rivercoin",
+                                "suncoin",
+                                "skycoin"           
                             ],
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "libracrest",
+                                "geminicrest",
+                                "mobiuscrest"
+                            ],
+                            [
+                                "treewither",
+                                "elixir",
+                                "wakewater",
+                                "magicmirror"
+                            ],
+                            [
+                                "venuskey",
+                                "multikey",
+                                "mask"
+                            ],
+                            [
+                                "thunderrock",
+                                "captainscap"
+                            ],
+                            [
+                                "sword",
+                                "axe",
+                                "claw",
+                                "bomb"
                             ]
                         ]
                     }

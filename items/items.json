@@ -1,58 +1,5 @@
 [
     {
-        "name": "Toggle",
-        "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
-    },
-    {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Consumable",
-        "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
-    },
-    {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "Captain's Cap",
         "type": "toggle",
         "img": "images/items/captains_cap.png",
@@ -62,7 +9,7 @@
         "name": "Elixir",
         "type": "toggle",
         "img": "images/items/elixir.png",
-        "codes": "elixiroggle"
+        "codes": "elixir"
     },
     {
         "name": "Gemini Crest",
@@ -151,78 +98,84 @@
     {
         "name": "Sword",
         "type": "progressive",
-        "codes": "sword",
         "stages": [
             {
                 "img": "images/items/steelsword.png",
-                "name": "Steel Sword"
+                "name": "Steel Sword",
+                "codes": "sword"
             },
             {
                 "img": "images/items/knightssword.png",
-                "name": "Knight's Sword"
+                "name": "Knight's Sword",
+                "codes": "sword"
             },
             {
                 "img": "images/items/excalibur.png",
-                "name": "Excalibur"
+                "name": "Excalibur",
+                "codes": "sword"
             }
         ]
     },
     {
         "name": "Axe",
         "type": "progressive",
-        "codes": "axe",
         "stages": [
             {
                 "img": "images/items/axe.png",
-                "name": "Axe"
+                "name": "Axe",
+                "codes": "axe"
             },
             {
                 "img": "images/items/battleaxe.png",
-                "name": "Battle Axe"
+                "name": "Battle Axe",
+                "codes": "axe"
             },
             {
                 "img": "images/items/giantsaxe.png",
-                "name": "Giant's Axe"
+                "name": "Giant's Axe",
+                "codes": "axe"
             }
         ]
     },
     {
         "name": "Claw",
         "type": "progressive",
-        "codes": "claw",
         "stages": [
             {
                 "img": "images/items/catclaw.png",
-                "name": "Catclaw"
+                "name": "Catclaw",
+                "codes": "claw"
             },
             {
                 "img": "images/items/charmclaw.png",
-                "name": "Charm Claw"
+                "name": "Charm Claw",
+                "codes": "claw"
             },
             {
                 "img": "images/items/dragonclaw.png",
                 "name": "Dragon Claw",
-                "codes": "dragonclaw"
+                "codes": "dragonclaw, claw"
             }
         ]
     },
     {
         "name": "Bomb",
         "type": "progressive",
-        "codes": "bomb",
         "stages": [
             {
                 "img": "images/items/bomb.png",
-                "name": "Bomb"
+                "name": "Bomb",
+                "codes": "bomb"
             },
             {
                 "img": "images/items/jumbobomb.png",
-                "name": "Jumbo Bomb"
+                "name": "Jumbo Bomb",
+                "codes": "bomb"
             },
             {
                 "img": "images/items/megagrenade.png",
                 "name": "Mega Grenade",
-                "codes": "megagrenade"
+                "codes": "megagrenade,bomb"
             }
         ]
     }
