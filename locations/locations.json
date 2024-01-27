@@ -1,6 +1,8 @@
 [
     {
         "name": "Earth Crystal",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
         "children": [
             {
                 "name": "Level Forest",
@@ -40,7 +42,9 @@
                 "name": "Foresta West Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield"
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
                     }
                 ],
                 "map_locations": [
@@ -87,6 +91,8 @@
 
     {
         "name": "Water Crystal",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
         "access_rules": ["$aquaria_access"],
         "children": [
             {
@@ -108,7 +114,9 @@
                 "name": "South of Aquaria Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield"
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
                     }
                 ],
                 "map_locations": [
@@ -206,6 +214,8 @@
                 "sections": [
                     {
                         "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
                         "access_rules": ["wakewater"]
                     }
                 ],
@@ -222,13 +232,17 @@
 
     {
         "name": "Fire Crystal",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
         "access_rules": ["$fireburg_access"],
         "children": [
             {
                 "name": "Path to Fireburg Central Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield"
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
                     }
                 ],
                 "map_locations": [
@@ -288,7 +302,9 @@
                 "name": "Mine Battlefield",
                 "sections": [
                     {
-                        "name": "Clear Battlefield"
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
                     }
                 ],
                 "map_locations": [
@@ -346,6 +362,8 @@
 
     {
         "name": "Wind Crystal",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
         "access_rules":["$windia_access"],
         "children": [
             {
@@ -482,6 +500,8 @@
     },
     {
         "name": "Focus Tower",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
         "children": [
             {
                 "name": "Focus Tower",
