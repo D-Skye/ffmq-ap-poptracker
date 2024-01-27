@@ -2,97 +2,97 @@
     {
         "name": "Captain's Cap",
         "type": "toggle",
-        "img": "images/items/captains_cap.png",
+        "img": "images/items/keyitems/captains_cap.png",
         "codes": "captainscap"
     },
     {
         "name": "Elixir",
         "type": "toggle",
-        "img": "images/items/elixir.png",
+        "img": "images/items/keyitems/elixir.png",
         "codes": "elixir"
     },
     {
         "name": "Gemini Crest",
         "type": "toggle",
-        "img": "images/items/gemini_crest.png",
+        "img": "images/items/keyitems/gemini_crest.png",
         "codes": "geminicrest"
     },
     {
         "name": "Libra Crest",
         "type": "toggle",
-        "img": "images/items/libra_crest.png",
+        "img": "images/items/keyitems/libra_crest.png",
         "codes": "libracrest"
     },
     {
         "name": "Magic Mirror",
         "type": "toggle",
-        "img": "images/items/magic_mirror.png",
+        "img": "images/items/keyitems/magic_mirror.png",
         "codes": "magicmirror"
     },
     {
         "name": "Mask",
         "type": "toggle",
-        "img": "images/items/mask.png",
+        "img": "images/items/keyitems/mask.png",
         "codes": "mask"
     },
     {
         "name": "Mobius Crest",
         "type": "toggle",
-        "img": "images/items/mobius_crest.png",
+        "img": "images/items/keyitems/mobius_crest.png",
         "codes": "mobiuscrest"
     },
     {
         "name": "Multi-Key",
         "type": "toggle",
-        "img": "images/items/multi_key.png",
+        "img": "images/items/keyitems/multi_key.png",
         "codes": "multikey"
     },
     {
         "name": "River Coin",
         "type": "toggle",
-        "img": "images/items/river_coin.png",
+        "img": "images/items/keyitems/river_coin.png",
         "codes": "rivercoin"
     },
     {
         "name": "Sand Coin",
         "type": "toggle",
-        "img": "images/items/sand_coin.png",
+        "img": "images/items/keyitems/sand_coin.png",
         "codes": "sandcoin"
     },
     {
         "name": "Sky Coin",
         "type": "toggle",
-        "img": "images/items/sky_coin.png",
+        "img": "images/items/keyitems/sky_coin.png",
         "codes": "skycoin"
     },
     {
         "name": "Sun Coin",
         "type": "toggle",
-        "img": "images/items/sun_coin.png",
+        "img": "images/items/keyitems/sun_coin.png",
         "codes": "suncoin"
     },
     {
         "name": "Thunder Rock",
         "type": "toggle",
-        "img": "images/items/thunder_rock.png",
+        "img": "images/items/keyitems/thunder_rock.png",
         "codes": "thunderrock"
     },
     {
         "name": "Tree Wither",
         "type": "toggle",
-        "img": "images/items/tree_wither.png",
+        "img": "images/items/keyitems/tree_wither.png",
         "codes": "treewither"
     },
     {
         "name": "Venus Key",
         "type": "toggle",
-        "img": "images/items/venus_key.png",
+        "img": "images/items/keyitems/venus_key.png",
         "codes": "venuskey"
     },
     {
         "name": "Wakewater",
         "type": "toggle",
-        "img": "images/items/wakewater.png",
+        "img": "images/items/keyitems/wakewater.png",
         "codes": "wakewater"
     },
     {
@@ -100,19 +100,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/steelsword.png",
+                "img": "images/items/weapons/steelsword.png",
                 "name": "Steel Sword",
                 "codes": "steelsword,sword"
             },
             {
-                "img": "images/items/knightssword.png",
+                "img": "images/items/weapons/knightssword.png",
                 "name": "Knight's Sword",
-                "codes": "knightsword,sword"
+                "codes": "knightsword"
             },
             {
-                "img": "images/items/excalibur.png",
+                "img": "images/items/weapons/excalibur.png",
                 "name": "Excalibur",
-                "codes": "excalibur,sword"
+                "codes": "excalibur"
             }
         ]
     },
@@ -121,19 +121,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/axe.png",
+                "img": "images/items/weapons/axe.png",
                 "name": "Axe",
                 "codes": "regularaxe,axe"
             },
             {
-                "img": "images/items/battleaxe.png",
+                "img": "images/items/weapons/battleaxe.png",
                 "name": "Battle Axe",
-                "codes": "battleaxe,axe"
+                "codes": "battleaxe"
             },
             {
-                "img": "images/items/giantsaxe.png",
+                "img": "images/items/weapons/giantsaxe.png",
                 "name": "Giant's Axe",
-                "codes": "giantsaxe,axe"
+                "codes": "giantsaxe"
             }
         ]
     },
@@ -142,19 +142,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/catclaw.png",
+                "img": "images/items/weapons/catclaw.png",
                 "name": "Catclaw",
                 "codes": "catclaw,claw"
             },
             {
-                "img": "images/items/charmclaw.png",
+                "img": "images/items/weapons/charmclaw.png",
                 "name": "Charm Claw",
-                "codes": "charmclaw,claw"
+                "codes": "charmclaw"
             },
             {
-                "img": "images/items/dragonclaw.png",
+                "img": "images/items/weapons/dragonclaw.png",
                 "name": "Dragon Claw",
-                "codes": "dragonclaw, claw"
+                "codes": "dragonclaw"
             }
         ]
     },
@@ -163,19 +163,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/bomb.png",
+                "img": "images/items/weapons/bomb.png",
                 "name": "Bomb",
                 "codes": "regularbomb,bomb"
             },
             {
-                "img": "images/items/jumbobomb.png",
+                "img": "images/items/weapons/jumbobomb.png",
                 "name": "Jumbo Bomb",
-                "codes": "jumbobomb,bomb"
+                "codes": "jumbobomb"
             },
             {
-                "img": "images/items/megagrenade.png",
+                "img": "images/items/weapons/megagrenade.png",
                 "name": "Mega Grenade",
-                "codes": "megagrenade,bomb"
+                "codes": "megagrenade"
             }
         ]
     },
@@ -184,19 +184,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/steelhelm.png",
+                "img": "images/items/armor/steelhelm.png",
                 "name": "Steel Helm",
                 "codes": "steelhelm,helm"
             },
             {
-                "img": "images/items/moonhelm.png",
+                "img": "images/items/armor/moonhelm.png",
                 "name": "Moon Helm",
-                "codes": "moonhelm,helm"
+                "codes": "moonhelm"
             },
             {
-                "img": "images/items/apollohelm.png",
+                "img": "images/items/armor/apollohelm.png",
                 "name": "Apollo Helm",
-                "codes": "apollohelm,helm"
+                "codes": "apollohelm"
             }
         ]
     },
@@ -205,19 +205,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/steelarmor.png",
+                "img": "images/items/armor/steelarmor.png",
                 "name": "Steel Armor",
                 "codes": "steelarmor,armor"
             },
             {
-                "img": "images/items/noblearmor.png",
+                "img": "images/items/armor/noblearmor.png",
                 "name": "Noble Armor",
-                "codes": "noblearmor,armor"
+                "codes": "noblearmor"
             },
             {
-                "img": "images/items/gaiaarmor.png",
+                "img": "images/items/armor/gaiaarmor.png",
                 "name": "Gaia's Armor",
-                "codes": "gaiaarmor,armor"
+                "codes": "gaiaarmor"
             }
         ]
     },
@@ -226,19 +226,19 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/steelshield.png",
+                "img": "images/items/armor/steelshield.png",
                 "name": "Steel Shield",
                 "codes": "steelshield,shield"
             },
             {
-                "img": "images/items/venusshield.png",
+                "img": "images/items/armor/venusshield.png",
                 "name": "Venus Shield",
-                "codes": "venusshield,shield"
+                "codes": "venusshield"
             },
             {
-                "img": "images/items/aegisshield.png",
+                "img": "images/items/armor/aegisshield.png",
                 "name": "Aegis Shield",
-                "codes": "aegisshield,shield"
+                "codes": "aegisshield"
             }
         ]
     },
@@ -247,92 +247,92 @@
         "type": "progressive",
         "stages": [
             {
-                "img": "images/items/charm.png",
+                "img": "images/items/armor/charm.png",
                 "name": "Charm",
                 "codes": "charm,accessory"
             },
             {
-                "img": "images/items/magicring.png",
+                "img": "images/items/armor/magicring.png",
                 "name": "Magic Ring",
-                "codes": "magicring,accessory"
+                "codes": "magicring"
             },
             {
-                "img": "images/items/cupidlocket.png",
+                "img": "images/items/armor/cupidlocket.png",
                 "name": "Cupid Locket",
-                "codes": "cupidlocket,accessory"
+                "codes": "cupidlocket"
             }
         ]
     },
     {
         "name": "Exit Book",
         "type": "toggle",
-        "img": "images/items/exitbook.png",
+        "img": "images/items/spells/exitbook.png",
         "codes": "exitbook"
     },
     {
         "name": "Cure Book",
         "type": "toggle",
-        "img": "images/items/curebook.png",
+        "img": "images/items/spells/curebook.png",
         "codes": "curebook"
     },
     {
         "name": "Heal Book",
         "type": "toggle",
-        "img": "images/items/healbook.png",
+        "img": "images/items/spells/healbook.png",
         "codes": "healbook"
     },
     {
         "name": "Life Book",
         "type": "toggle",
-        "img": "images/items/lifebook.png",
+        "img": "images/items/spells/lifebook.png",
         "codes": "lifebook"
     },
     {
         "name": "Quake Book",
         "type": "toggle",
-        "img": "images/items/quakebook.png",
+        "img": "images/items/spells/quakebook.png",
         "codes": "quakebook"
     },
     {
         "name": "Blizzard Book",
         "type": "toggle",
-        "img": "images/items/blizzardbook.png",
+        "img": "images/items/spells/blizzardbook.png",
         "codes": "blizzardbook"
     },
     {
         "name": "Fire Book",
         "type": "toggle",
-        "img": "images/items/firebook.png",
+        "img": "images/items/spells/firebook.png",
         "codes": "firebook"
     },
     {
         "name": "Aero Book",
         "type": "toggle",
-        "img": "images/items/aerobook.png",
+        "img": "images/items/spells/aerobook.png",
         "codes": "aerobook"
     },
     {
         "name": "Thunder Seal",
         "type": "toggle",
-        "img": "images/items/thunderseal.png",
+        "img": "images/items/spells/thunderseal.png",
         "codes": "thunderseal"
     },
     {
         "name": "White Seal",
         "type": "toggle",
-        "img": "images/items/whiteseal.png",
+        "img": "images/items/spells/whiteseal.png",
         "codes": "whiteseal"
     },
     {
         "name": "Meteor Seal",
         "type": "toggle",
-        "img": "images/items/meteorseal.png",
+        "img": "images/items/spells/meteorseal.png",
         "codes": "meteorseal"
     },
     {
         "name": "Flare Seal",
         "type": "toggle",
-        "img": "images/items/flareseal.png",
+        "img": "images/items/spells/flareseal.png",
         "codes": "flareseal"
     }
 ]

@@ -15,36 +15,74 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "sandcoin",
-                                "rivercoin",
-                                "suncoin",
-                                "skycoin"           
+                                "elixir",
+                                "treewither",
+                                "wakewater",
+                                "venuskey"           
                             ],
                             [
+                                "multikey",
+                                "mask",
+                                "magicmirror",
+                                "thunderrock"
+                            ],
+                            [
+                                "captainscap",
                                 "libracrest",
                                 "geminicrest",
                                 "mobiuscrest"
                             ],
                             [
-                                "treewither",
-                                "elixir",
-                                "wakewater",
-                                "magicmirror"
-                            ],
-                            [
-                                "venuskey",
-                                "multikey",
-                                "mask"
-                            ],
-                            [
-                                "thunderrock",
-                                "captainscap"
-                            ],
+                                "sandcoin",
+                                "rivercoin",
+                                "suncoin",
+                                "skycoin"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
                             [
                                 "sword",
                                 "axe",
                                 "claw",
                                 "bomb"
+                            ],
+                            [
+                                "helm",
+                                "armor",
+                                "shield",
+                                "accessory"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "exitbook",
+                                "quakebook",
+                                "thunderseal"         
+                            ],
+                            [
+                                "curebook",
+                                "blizzardbook",
+                                "whiteseal"
+                            ],
+                            [
+                                "healbook",
+                                "firebook",
+                                "meteorseal"
+                            ],
+                            [
+                                "lifebook",
+                                "aerobook",
+                                "flareseal"
                             ]
                         ]
                     }
