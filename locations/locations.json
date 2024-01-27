@@ -520,7 +520,7 @@
                     },
                     {
                         "name": "Sun Door Chest",
-                        "access_rules": ["suncoin", "[$windia_access]"]
+                        "access_rules": ["[suncoin],$windia_access"]
                     }
                 ],
                 "map_locations": [
