@@ -93,7 +93,7 @@
         "name": "Water Crystal",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
-        "access_rules": ["$aquaria_access"],
+        "access_rules": ["sandcoin","[sandcoin], $aquaria_expert_access"],
         "children": [
             {
                 "name": "Aquaria",
@@ -234,7 +234,7 @@
         "name": "Fire Crystal",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
-        "access_rules": ["$fireburg_access"],
+        "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access"],
         "children": [
             {
                 "name": "Path to Fireburg Central Battlefield",
@@ -261,7 +261,8 @@
                         "access_rules": ["multikey", "suncoin,mobiuscrest"]
                     },
                     {
-                        "name": "Reuben's House: Arion"
+                        "name": "Reuben's House: Arion",
+                        "access_rules": ["megagrenade"]
                     },
                     {
                         "name": "Tristam"
@@ -364,7 +365,7 @@
         "name": "Wind Crystal",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
-        "access_rules":["$windia_access"],
+        "access_rules":["suncoin","[suncoin],$windia_expert_access"],
         "children": [
             {
                 "name": "Alive Forest",
@@ -508,19 +509,19 @@
                 "sections": [
                     {
                         "name": "2F - Sand Door Chest",
-                        "access_rules": ["sandcoin"]
+                        "access_rules": ["sandcoin","[sandcoin],$aquaria_expert_access"]
                     },
                     {
                         "name": "2F - Back Door Chest",
-                        "access_rules": ["wakewater,$aquaria_access"]
+                        "access_rules": ["wakewater,sandcoin","[sandcoin],wakewater,$aquaria_expert_access", "[wakewater],[sandcoin],$fireburg_access,exitbook"]
                     },
                     {
                         "name": "2F - Venus Chest",
-                        "access_rules": ["wakewater,$aquaria_access"]
+                        "access_rules": ["venuskey,wakewater,sandcoin", "venuskey,[sandcoin],wakewater,$aquaria_expert_access", "venuskey,[wakewater],[sandcoin],$fireburg_access,exitbook"]
                     },
                     {
                         "name": "Sun Door Chest",
-                        "access_rules": ["[suncoin],$windia_access"]
+                        "access_rules": ["suncoin","[suncoin],$windia_expert_access"]
                     }
                 ],
                 "map_locations": [

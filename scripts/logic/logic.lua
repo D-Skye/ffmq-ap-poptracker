@@ -1,32 +1,29 @@
-function aquaria_access()
+function aquaria_expert_access()
     return (
-        has("sandcoin") or
-        (has("rivercoin") and has("geminicrest")) --fireburg teleport, expert logic?
+        (has("rivercoin") or fireburg_expert_access()) and --any way into fireburg
+        (has("geminicrest") or has("exitbook")) --either gemini warp or sealed temple exit trick
     )
 end
 
 function fireburg_access()
     return (
-        has("rivercoin") or 
-        (
-            has("suncoin") and has("mobiuscrest") and has("multikey") or --windia teleport to locked house, expert logic?
-            (has("sandcoin") and has("geminicrest"))--from aquaria, expert logic?
-        )
+        has("rivercoin") or fireburg_expert_access()
     )
 end
 
-function windia_access()
+function fireburg_expert_access()
     return (
-        has("suncoin") or
-        (has("rivercoin") and has("mobiuscrest") and has("multikey")) --fireburg locked house teleport, expert logic?
+        (has("suncoin") and has("mobiuscrest") and has("multikey")) or --windia teleport to locked house
+        (has("sandcoin") and has("geminicrest"))--aquaria warp
+    )
+end
+
+function windia_expert_access()
+    return (
+        has("rivercoin") and has("mobiuscrest") and has("multikey") --fireburg locked house teleport
     )
 end
 
 function doom_castle_access()
-    return (windia_access() and has("mobiuscrest") and has("thunderrock") and has("captainscap"))
+    return ((has("suncoin") or windia_expert_access()) and has("mobiuscrest") and has("thunderrock") and has("captainscap"))
 end
-
--- future expert logic work
--- function can_sealed_temple_exit_trick()
---     return false
--- end
