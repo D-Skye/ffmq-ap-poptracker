@@ -89,5 +89,20 @@
                 ]
             }
         ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2, 2",
+                "h_alignment": "left",
+                "rows": [
+                    ["boxsanity_enabled"]
+                ]
+            }
+        ]
     }
 }

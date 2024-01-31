@@ -334,5 +334,11 @@
         "type": "toggle",
         "img": "images/items/spells/flareseal.png",
         "codes": "flareseal"
+    },
+    {
+        "name": "Boxsanity",
+        "type": "toggle",
+        "img": "images/check_icons/box_closed.png",
+        "codes": "boxsanity_enabled"
     }
 ]
