@@ -1,7 +1,6 @@
 function aquaria_expert_access()
     return (
-        (has("rivercoin") or fireburg_expert_access()) and --any way into fireburg
-        (has("geminicrest") or has("exitbook")) --either gemini warp or sealed temple exit trick
+        (has("rivercoin") or fireburg_expert_access()) and has("geminicrest") --gemini warp
     )
 end
 
