@@ -4,16 +4,16 @@ function aquaria_expert_access()
     )
 end
 
-function fireburg_access()
+function fireburg_expert_access()
     return (
-        has("rivercoin") or fireburg_expert_access()
+        (has("suncoin") and has("mobiuscrest")) or --windia teleport to locked house
+        (has("sandcoin") and has("geminicrest"))--aquaria warp
     )
 end
 
-function fireburg_expert_access()
+function fireburg_access()
     return (
-        (has("suncoin") and has("mobiuscrest") and has("multikey")) or --windia teleport to locked house
-        (has("sandcoin") and has("geminicrest"))--aquaria warp
+        has("rivercoin") or fireburg_expert_access()
     )
 end
 
