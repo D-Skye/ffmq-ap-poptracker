@@ -64,6 +64,17 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+    -- Boxsanity checker, check to see if Level Forest - Middle Box location exists
+    for _, v in pairs(Archipelago.MissingLocations) do
+        if v == 4325418 then
+            Tracker:FindObjectForCode("boxsanity_enabled").Active = true
+        end
+    end
+    for _, v in pairs(Archipelago.CheckedLocations) do
+        if v == 4325418 then
+            Tracker:FindObjectForCode("boxsanity_enabled").Active = true
+        end
+    end
 end
 
 -- called when an item gets collected
