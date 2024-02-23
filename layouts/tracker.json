@@ -47,15 +47,6 @@
                                     "overworld"
                                 ]
                             }
-                        },
-                        {
-                            "title": "Map 2",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "map2"
-                                ]
-                            }
                         }
                     ]
                 }
