@@ -11,6 +11,28 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+local SECONDSTAGE = {
+    [4325409] = 4325409, --knight sword
+    [4325412] = 4325412, --battle axe
+    [4325415] = 4325415, --charm claw
+    [4325418] = 4325418, --jumbo bomb
+    [4325424] = 4325424, --moon helm
+    [4325427] = 4325427, --noble armor
+    [4325434] = 4325434, --venus shield
+    [4325438] = 4325438 --magic ring
+}
+
+local THIRDSTAGE = {
+    [4325410] = 4325410, --excalibur
+    [4325413] = 4325413, --giant's axe
+    [4325416] = 4325416, --dragon claw
+    [4325419] = 4325419, --megagrenade
+    [4325425] = 4325425, --apollo helm
+    [4325428] = 4325428, --gaia's armor
+    [4325435] = 4325435, --aegis shield
+    [4325439] = 4325439 --cupid locket
+}
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -108,7 +130,11 @@ function onItem(index, item_id, item_name, player_number)
         if v[2] == "toggle" then
             obj.Active = true
         elseif v[2] == "progressive" then
-            if obj.Active then
+            if (SECONDSTAGE[item_id] == item_id and obj.CurrentStage < 2) then
+                obj.CurrentStage = 2
+            elseif (THIRDSTAGE[item_id] == item_id and obj.CurrentStage < 3) then
+                obj.CurrentStage = 3
+            elseif obj.Active then
                 obj.CurrentStage = obj.CurrentStage + 1
             else
                 obj.Active = true

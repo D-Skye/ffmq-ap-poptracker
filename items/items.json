@@ -61,9 +61,15 @@
     },
     {
         "name": "Sky Coin",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/keyitems/sky_coin.png",
         "codes": "skycoin"
+    },
+    {
+        "name": "Sky Coin Fragment",
+        "type": "consumable",
+        "img": "images/items/keyitems/sky_coin.png",
+        "codes": "skyfragment,skycoin"
     },
     {
         "name": "Sun Coin",
@@ -98,11 +104,12 @@
     {
         "name": "Sword",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/weapons/steelsword.png",
                 "name": "Steel Sword",
-                "codes": "steelsword,sword"
+                "codes": "sword,steelsword"
             },
             {
                 "img": "images/items/weapons/knightssword.png",
@@ -119,11 +126,12 @@
     {
         "name": "Axe",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/weapons/axe.png",
                 "name": "Axe",
-                "codes": "regularaxe,axe"
+                "codes": "axe,regularaxe"
             },
             {
                 "img": "images/items/weapons/battleaxe.png",
@@ -140,11 +148,12 @@
     {
         "name": "Claw",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/weapons/catclaw.png",
                 "name": "Catclaw",
-                "codes": "catclaw,claw"
+                "codes": "claw, catclaw"
             },
             {
                 "img": "images/items/weapons/charmclaw.png",
@@ -161,11 +170,12 @@
     {
         "name": "Bomb",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/weapons/bomb.png",
                 "name": "Bomb",
-                "codes": "regularbomb,bomb"
+                "codes": "bomb,regularbomb"
             },
             {
                 "img": "images/items/weapons/jumbobomb.png",
@@ -182,11 +192,12 @@
     {
         "name": "Helm",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/armor/steelhelm.png",
                 "name": "Steel Helm",
-                "codes": "steelhelm,helm"
+                "codes": "helm,steelhelm"
             },
             {
                 "img": "images/items/armor/moonhelm.png",
@@ -203,11 +214,12 @@
     {
         "name": "Armor",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/armor/steelarmor.png",
                 "name": "Steel Armor",
-                "codes": "steelarmor,armor"
+                "codes": "armor,steelarmor"
             },
             {
                 "img": "images/items/armor/noblearmor.png",
@@ -224,11 +236,12 @@
     {
         "name": "Shield",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/armor/steelshield.png",
                 "name": "Steel Shield",
-                "codes": "steelshield,shield"
+                "codes": "shield,steelshield"
             },
             {
                 "img": "images/items/armor/venusshield.png",
@@ -245,11 +258,12 @@
     {
         "name": "Accessory",
         "type": "progressive",
+        "loop": false,
         "stages": [
             {
                 "img": "images/items/armor/charm.png",
                 "name": "Charm",
-                "codes": "charm,accessory"
+                "codes": "accessory,charm"
             },
             {
                 "img": "images/items/armor/magicring.png",
