@@ -68,8 +68,8 @@
     {
         "name": "Sky Coin Fragment",
         "type": "consumable",
-        "img": "images/items/keyitems/sky_coin.png",
-        "codes": "skyfragment,skycoin"
+        "img": "images/items/keyitems/sky_fragment.png",
+        "codes": "skyfragment"
     },
     {
         "name": "Sun Coin",
