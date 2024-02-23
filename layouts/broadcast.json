@@ -1,5 +1,4 @@
-﻿//sets the layout for the broadcast view
-{
+﻿{
     "tracker_broadcast": {
         "type": "array",
         "orientation": "vertical",
@@ -11,10 +10,71 @@
                 "margin": "0,0",
                 "content": [
                     {
-                        "type": "layout",
-                        "key": "shared_item_grid"
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "elixir",
+                                "treewither",
+                                "wakewater",
+                                "venuskey"           
+                            ],
+                            [
+                                "multikey",
+                                "mask",
+                                "magicmirror",
+                                "thunderrock"
+                            ],
+                            [
+                                "captainscap",
+                                "libracrest",
+                                "geminicrest",
+                                "mobiuscrest"
+                            ],
+                            [
+                                "sandcoin",
+                                "rivercoin",
+                                "suncoin",
+                                "skycoin"
+                            ],
+                            [
+                                "sword",
+                                "axe",
+                                "claw",
+                                "bomb"
+                            ],
+                            [
+                                "helm",
+                                "armor",
+                                "shield",
+                                "accessory"
+                            ],
+                            [
+                                "exitbook",
+                                "curebook",
+                                "healbook",
+                                "lifebook"     
+                            ],
+                            [
+                                "quakebook",
+                                "blizzardbook",
+                                "firebook",
+                                "aerobook"
+                            ],
+                            [
+                                "thunderseal",
+                                "whiteseal",
+                                "meteorseal",
+                                "flareseal"
+                            ]
+                        ]
                     }
                 ]
+            },
+            {
+                "type": "layout",
+                "key": "settings_grid"
             }
         ]
     }
