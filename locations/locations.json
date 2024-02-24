@@ -1672,7 +1672,7 @@
                     },
                     {
                         "name": "7F - Pazuzu Chest",
-                        "access_rules": ["axe,bomb"]
+                        "access_rules": ["axe,bomb,dragonclaw"]
                     }
                 ],
                 "map_locations": [
