@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.4.1",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.4.1/ffmq.zip",
-			"sha256": "836DDF6A19597A09F9052A22D9BAB3A7D1D63D7EFD181A94D03363190E523A8D",
+			"sha256": "08A28C94F72D0A04EE3BDCEF255BD5194279AAE78CA53E0AAC2369141C5A43AA",
 			"changelog": ["Fix Pazuzu Chest requirements"]
 		},
 		{
