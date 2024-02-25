@@ -4,5 +4,47 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/ffmq-overworld.png"
+    },
+    {
+        "name": "ice-pyramid-1f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-1f.png"
+    },
+    {
+        "name": "ice-pyramid-2f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-2f.png"
+    },
+    {
+        "name": "ice-pyramid-3f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-3f.png"
+    },
+    {
+        "name": "ice-pyramid-4f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-4f.png"
+    },
+    {
+        "name": "ice-pyramid-5f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-5f.png"
+    },
+    {
+        "name": "ice-pyramid-b1f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-b1f.png"
+    },
+    {
+        "name": "ice-pyramid-boss",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/ice_pyramid/ffmq-ice-pyramid-boss.png"
     }
 ]
