@@ -938,13 +938,13 @@
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
-                        "name": "Bare Maze Leapfrog Alcove North Box",
+                        "name": "Bare Maze Leapfrog Alcove South Box",
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
-                        "name": "Bare Maze Leapfrog Alcove South Box",
+                        "name": "Bare Maze Leapfrog Alcove North Box",
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
