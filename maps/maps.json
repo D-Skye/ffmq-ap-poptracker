@@ -52,5 +52,23 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/lava_dome/lava-dome-exterior.png"
+    },
+    {
+        "name": "threejumps-lavariver-beyondriver-ubend",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/lava_dome/threejumps-lavariver-beyondriver-ubend.png"
+    },
+    {
+        "name": "goldbar-baremaze",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/lava_dome/goldbar-baremaze.png"
+    },
+    {
+        "name": "goldmaze-calderastairway-hydraroom",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/lava_dome/goldmaze-calderastairway-hydraroom.png"
     }
 ]

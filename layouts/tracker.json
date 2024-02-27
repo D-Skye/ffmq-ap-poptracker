@@ -118,6 +118,50 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "title": "Lava Dome",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Exterior",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "lava-dome-exterior"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Three Jumps/Lava River/Beyond River/Split Corridor/U-Bend",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "threejumps-lavariver-beyondriver-ubend"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gold Bar/Bare Maze",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "goldbar-baremaze"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gold Maze/Caldera Stairway/Hydra Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "goldmaze-calderastairway-hydraroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
