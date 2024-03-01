@@ -1,0 +1,548 @@
+[
+    {
+        "name": "Ice Pyramid Map Locations",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/1F - East Alcove Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-1f",
+                        "x": 879,
+                        "y": 439
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/1F - Sandwiched Alcove Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-1f",
+                        "x": 591,
+                        "y": 295
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/1F - Southwest Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-1f",
+                        "x": 96,
+                        "y": 615
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/1F - Southwest Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-1f",
+                        "x": 112,
+                        "y": 615
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/1F - Southwest Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-1f",
+                        "x": 95,
+                        "y": 615
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - South Side Glass Door Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 97,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - South Side East Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 480,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - Northwest Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 161,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - Center Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 161,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - North Room Glass Door Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 368,
+                        "y": 24
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/2F - North Corridor Glass Door Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-2f",
+                        "x": 464,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - Staircase Dead End Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 193,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - Staircase Dead End Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 225,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - Inner Room North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 145,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - Inner Room South Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 145,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - East Alcove Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 385,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/3F - Leapfrog Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-3f",
+                        "x": 417,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 256,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - Northwest Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 96,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - West Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 96,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - West Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 128,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - South Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 160,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - South Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 224,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - East Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 256,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/4F - East Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-4f",
+                        "x": 288,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - West Ledge Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 32,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - South Shelf Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 96,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - South Leapfrog Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 128,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 208,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - Glass Door Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 47,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/5F - Glass Door Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-5f",
+                        "x": 80,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/B1 - Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-b1f",
+                        "x": 144,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/B1 - West Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-b1f",
+                        "x": 112,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/B1 - North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-b1f",
+                        "x": 144,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/B1 - East Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-b1f",
+                        "x": 176,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Water Crystal/Ice Pyramid/6F - Ice Golem Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ice-pyramid-boss",
+                        "x": 176,
+                        "y": 55
+                    }
+                ]
+            }
+        ]
+    }
+    
+]
