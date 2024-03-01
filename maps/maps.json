@@ -70,5 +70,47 @@
         "location_size": 12,
         "location_border_thickness": 2,
         "img": "images/maps/lava_dome/goldmaze-calderastairway-hydraroom.png"
+    },
+    {
+        "name": "pazuzu-tower-1f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-1f.png"
+    },
+    {
+        "name": "pazuzu-tower-2f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-2f.png"
+    },
+    {
+        "name": "pazuzu-tower-3f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-3f.png"
+    },
+    {
+        "name": "pazuzu-tower-4f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-4f.png"
+    },
+    {
+        "name": "pazuzu-tower-5f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-5f.png"
+    },
+    {
+        "name": "pazuzu-tower-6f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-6f.png"
+    },
+    {
+        "name": "pazuzu-tower-7f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/pazuzu_tower/pazuzu-7f.png"
     }
 ]
