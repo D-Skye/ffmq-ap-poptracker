@@ -164,6 +164,59 @@
                             }
                         },
                         {
+                            "title": "Giant Tree",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "giant-tree-1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "giant-tree-2f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "3F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "giant-tree-3f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "4F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "giant-tree-4f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "5F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "giant-tree-5f"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "title": "Pazuzu's Tower",
                             "content": {
                                 "type": "tabbed",

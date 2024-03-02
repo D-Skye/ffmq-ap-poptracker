@@ -1,0 +1,398 @@
+[
+    {
+        "name": "Giant Tree Map Locations",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/1F - Northwest Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-1f",
+                        "x": 32,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/1F - Southwest Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-1f",
+                        "x": 32,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/1F - Center Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-1f",
+                        "x": 224,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/1F - East Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-1f",
+                        "x": 352,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 416,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - South Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 416,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - Dropdown Ledge Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 80,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - Gidrah Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 448,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - Mushroom Tunnel West Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 630,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/2F - Mushroom Tunnel East Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-2f",
+                        "x": 647,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - Central Island Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 272,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - Center North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 192,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - Center West Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 160,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - Worm Room North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 696,
+                        "y": 146
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - Worm Room South Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 680,
+                        "y": 242
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/3F - West Side Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-3f",
+                        "x": 112,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - East Slime Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 639,
+                        "y": 149
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - West Slime Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 431,
+                        "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - Hook Ledge Northeast Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 288,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - Hook Ledge Southwest Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 256,
+                        "y": 485
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - Highest Platform North Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 80,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/4F - Highest Platform South Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-4f",
+                        "x": 80,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/5F - South Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-5f",
+                        "x": 144,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/5F - South Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-5f",
+                        "x": 192,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/5F - Northwest Left Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-5f",
+                        "x": 32,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Wind Crystal/Giant Tree/5F - Northwest Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giant-tree-5f",
+                        "x": 64,
+                        "y": 136
+                    }
+                ]
+            }
+        ]
+    }
+    
+]

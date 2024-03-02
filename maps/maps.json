@@ -72,6 +72,36 @@
         "img": "images/maps/lava_dome/goldmaze-calderastairway-hydraroom.png"
     },
     {
+        "name": "giant-tree-1f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/giant_tree/giant-tree-1f.png"
+    },
+    {
+        "name": "giant-tree-2f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/giant_tree/giant-tree-2f.png"
+    },
+    {
+        "name": "giant-tree-3f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/giant_tree/giant-tree-3f.png"
+    },
+    {
+        "name": "giant-tree-4f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/giant_tree/giant-tree-4f.png"
+    },
+    {
+        "name": "giant-tree-5f",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/giant_tree/giant-tree-5f.png"
+    },
+    {
         "name": "pazuzu-tower-1f",
         "location_size": 12,
         "location_border_thickness": 2,

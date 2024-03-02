@@ -33,6 +33,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/locations.json")
     Tracker:AddLocations("locations/ice_pyramid.json")
     Tracker:AddLocations("locations/lava_dome.json")
+    Tracker:AddLocations("locations/giant_tree.json")
     Tracker:AddLocations("locations/pazuzus_tower.json")
 end
 
