@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.0",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.0/ffmq.zip",
+			"sha256": "0538234872A3F8CB982A79FDB241E5EE2277C4BEAD8B8EDFAB70C6865563C181",
+			"changelog": ["Add maps for Ice Pyramid, Lava Dome, Giant Tree, and Pazuzu's Tower."]
+		},		
+		{
 			"package_version": "0.4.1",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.4.1/ffmq.zip",
 			"sha256": "08A28C94F72D0A04EE3BDCEF255BD5194279AAE78CA53E0AAC2369141C5A43AA",
