@@ -1,6 +1,209 @@
 [
     {
-        "name": "Lava Dome Map Locations",
+        "name": "Lava Dome Exterior Room Groups",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Three Jumps Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 188,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Lava River Room North Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Lava River Room East Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Lava River Room South Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Beyond River Room Chest"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Beyond River Room Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 93,
+                        "y": 183
+                    },
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 157,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Split Corridor Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Bare Maze Leapfrog Alcove South Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Bare Maze Leapfrog Alcove North Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Bare Maze Center Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Bare Maze Southwest Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 141,
+                        "y": 311
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/U-Bend Room North Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/U-Bend Room South Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 989,
+                        "y": 247
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Bar Room Boulder Chest"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Bar Room Leapfrog Alcove Box West"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Bar Room Leapfrog Alcove Box East"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 477,
+                        "y": 183
+                    },
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 605,
+                        "y": 279
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Caldera Stairway West Left Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Caldera Stairway West Right Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Caldera Stairway East Left Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Caldera Stairway East Right Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 764,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze Southwest Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze Northwest Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze Northeast Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze North Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze Center Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Gold Maze Southeast Box"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 829,
+                        "y": 87
+                    },
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 829,
+                        "y": 343
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Hydra Room Southeast Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Hydra Room Northwest Box"
+                    },
+                    {
+                        "ref": "Fire Crystal/Lava Dome/Dualhead Hydra Chest"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lava-dome-exterior",
+                        "x": 965,
+                        "y": 335
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lava Dome Exterior Locations",
         "children": [
             {
                 "name": "",
@@ -61,7 +264,12 @@
                         "y": 422
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "Lava Dome Interior Locations",
+        "children": [
             {
                 "name": "",
                 "sections": [
