@@ -1293,7 +1293,6 @@
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
-
                     {
                         "name": "2F - South Box",
                         "access_rules": ["dragonclaw"],
