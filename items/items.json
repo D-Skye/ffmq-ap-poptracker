@@ -61,7 +61,7 @@
     },
     {
         "name": "Sky Coin",
-        "type": "consumable",
+        "type": "toggle",
         "img": "images/items/keyitems/sky_coin.png",
         "codes": "skycoin"
     },
