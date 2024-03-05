@@ -662,7 +662,7 @@
         "name": "Fire Crystal",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
-        "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access,multikey"],
+        "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access"],
         "children": [
             {
                 "name": "Path to Fireburg Central Battlefield",
@@ -1099,33 +1099,33 @@
         "sections": [
             {
                 "name": "Hidden Tunnel Box",
-                "access_rules": ["rivercoin,claw", "[rivercoin],$fireburg_expert_access,multikey"],
+                "access_rules": ["rivercoin,claw", "[rivercoin],sandcoin,geminicrest,claw", "[rivercoin],suncoin,mobiuscrest,multikey"],
                 "visibility_rules": ["boxsanity_enabled"],
                 "chest_unopened_img": "images/check_icons/box_closed.png",
                 "chest_opened_img": "images/check_icons/box_opened.png"
             },
             {
                 "name": "Reuben's House: Arion",
-                "access_rules": ["rivercoin,megagrenade", "megagrenade,[rivercoin],$fireburg_expert_access,multikey"]
+                "access_rules": ["rivercoin,megagrenade", "megagrenade,[rivercoin],$fireburg_expert_access"]
             },
             {
                 "name": "Reuben's House: Box",
-                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access,multikey"],
+                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access"],
                 "visibility_rules": ["boxsanity_enabled"],
                 "chest_unopened_img": "images/check_icons/box_closed.png",
                 "chest_opened_img": "images/check_icons/box_opened.png"
             },
             {
                 "name": "Locked House Man",
-                "access_rules": ["rivercoin,multikey","[rivercoin],$fireburg_expert_access"]
+                "access_rules": ["rivercoin,multikey,claw","[rivercoin],[multikey],suncoin,mobiuscrest","[rivercoin],sandcoin,geminicrest,multikey,claw"]
             },
             {
                 "name": "Vendor",
-                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access,multikey"]
+                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access"]
             },
             {
                 "name": "Tristam",
-                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access,multikey"]
+                "access_rules":["rivercoin","[rivercoin],$fireburg_expert_access"]
             }
         ],
         "map_locations": [
@@ -1133,6 +1133,39 @@
                 "map": "overworld",
                 "x": 274,
                 "y": 179
+            }
+        ]
+    },
+    {
+        "name": "Spencer's Cave",
+        "chest_unopened_img": "images/check_icons/chest_closed.png",
+        "chest_opened_img": "images/check_icons/chest_opened.png",
+        "access_rules":["suncoin,thunderrock","[suncoin],$windia_expert_access,thunderrock","sandcoin,wakewater","[sandcoin],$aquaria_expert_access,wakewater"],
+        "sections": [
+            {
+                "name": "Box",
+                "access_rules": ["wakewater,claw","thunderrock"],
+                "visibility_rules": ["boxsanity_enabled"],
+                "chest_unopened_img": "images/check_icons/box_closed.png",
+                "chest_opened_img": "images/check_icons/box_opened.png"
+            },
+            {
+                "name": "Spencer"
+            },
+            {
+                "name": "Locked Chest",
+                "access_rules": ["venuskey"]
+            },
+            {
+                "name": "Mobius Chest",
+                "access_rules": ["suncoin,thunderrock,megagrenade,libracrest","[suncoin],$windia_expert_access,thunderrock,megagrenade,libracrest"]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 778,
+                "y": 372
             }
         ]
     },
@@ -1201,36 +1234,6 @@
                         "map": "overworld",
                         "x": 553,
                         "y": 484
-                    }
-                ]
-            },
-            {
-                "name": "Spencer's Cave",
-                "access_rules":["thunderrock"],
-                "sections": [
-                    {
-                        "name": "Box",
-                        "visibility_rules": ["boxsanity_enabled"],
-                        "chest_unopened_img": "images/check_icons/box_closed.png",
-                        "chest_opened_img": "images/check_icons/box_opened.png"
-                    },
-                    {
-                        "name": "Spencer"
-                    },
-                    {
-                        "name": "Locked Chest",
-                        "access_rules": ["venuskey"]
-                    },
-                    {
-                        "name": "Mobius Chest",
-                        "access_rules": ["megagrenade,libracrest"]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "overworld",
-                        "x": 778,
-                        "y": 372
                     }
                 ]
             },
@@ -1910,7 +1913,7 @@
                     },
                     {
                         "name": "3F - River Door Box",
-                        "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access,multikey"],
+                        "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
