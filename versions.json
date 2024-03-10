@@ -1,17 +1,23 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.4",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.4/ffmq-ap.zip",
+			"sha256": "F10B208D9974364BC56838BA88120188EBC13F36B5CF2AF8C5573DAA91DD8A54",
+			"changelog": ["Fix Doom Castle access logic and add expert Doom Castle logic."]
+		},
+		{
 			"package_version": "0.5.3",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.3/ffmq-ap.zip",
 			"sha256": "4E473CA1760D4C141AB9C5F7EDB127B33349F9521F853ECE7602BCDD0D686079",
 			"changelog": ["Add Mega Grenade to Mac's Ship access requirements."]
-		},			
+		},
 		{
 			"package_version": "0.5.2",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.2/ffmq-ap.zip",
 			"sha256": "6CC1197A5311B9D1743E5AE3C65D89DA29428018FC1B4FB23C7D68F67A99C6BD",
 			"changelog": ["Fix Spencer's Cave autotracker mapping"]
-		},			
+		},
 		{
 			"package_version": "0.5.1",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.1/ffmq-ap.zip",
@@ -20,13 +26,13 @@
 				"- Fix logic errors for Locked House Man, Fireburg expert access, Spencer's Cave, and Windia expert access.",
 				"- Change Sky Coin back to toggle instead of consumable."
 			]
-		},			
+		},
 		{
 			"package_version": "0.5.0",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.0/ffmq-ap.zip",
 			"sha256": "FC8064A4F89BEA1DA51EE0E3F9C9F6DD67353EB5CB980BFB9F1E8E45333D8C73",
 			"changelog": ["Add maps for Ice Pyramid, Lava Dome, Giant Tree, and Pazuzu's Tower."]
-		},		
+		},
 		{
 			"package_version": "0.4.1",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.4.1/ffmq.zip",
