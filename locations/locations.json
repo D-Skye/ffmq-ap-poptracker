@@ -1813,70 +1813,70 @@
                     },
                     {
                         "name": "4F - Southeast Room Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "4F - Northeast Room Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "4F - Southwest Room Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "4F - Northwest Room Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "5F - North Left Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "5F - North Right Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "5F - South Left Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "5F - South Right Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "6F - West Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "6F - East Box",
-                        "access_rules": ["dragonclaw,sword"],
+                        "access_rules": ["dragonclaw,sword,skycoin"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
