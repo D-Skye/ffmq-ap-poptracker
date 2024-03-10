@@ -24,5 +24,9 @@ function windia_expert_access()
 end
 
 function doom_castle_access()
-    return ((has("suncoin") or windia_expert_access()) and has("mobiuscrest") and has("thunderrock") and has("captainscap"))
+    return (has("suncoin") and has("mobiuscrest") and has("thunderrock") and has("captainscap") and has("megagrenade"))
+end
+
+function doom_castle_expert_access()
+    return (windia_expert_access() and has("mobiuscrest") and has("thunderrock") and has("captainscap") and has("megagrenade"))
 end

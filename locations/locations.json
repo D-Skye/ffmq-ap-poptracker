@@ -1791,7 +1791,7 @@
         "children": [
             {
                 "name": "Doom Castle",
-                "access_rules": ["$doom_castle_access"],
+                "access_rules": ["$doom_castle_access","[suncoin],$doom_castle_expert_access"],
                 "sections": [
                     {
                         "name": "B2 - Southeast Chest",
