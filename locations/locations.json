@@ -1706,7 +1706,7 @@
             },
             {
                 "name": "Mac's Ship",
-                "access_rules":["thunderrock,mobiuscrest"],
+                "access_rules":["thunderrock,mobiuscrest,megagrenade"],
                 "sections": [
                     {
                         "name": "Deck - North Box",
