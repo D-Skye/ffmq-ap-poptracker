@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.6",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.6/ffmq-ap.zip",
+			"sha256": "96A2C9AE8941957B759C23252F153BA57A16986BAECED9A70372F649F72C23FC",
+			"changelog": ["Fix Mine locations access logic."]
+		},
+		{
 			"package_version": "0.5.5",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.5/ffmq-ap.zip",
 			"sha256": "F0A33ED3BD04CD75B9F2D8E18D2DA11FA1DF4978E3010F98278A8A2D3C8C9421",
