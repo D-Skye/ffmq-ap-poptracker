@@ -700,17 +700,18 @@
             },
             {
                 "name": "Mine",
+                "access_rules": ["claw"],
                 "sections": [
                     {
                         "name": "Parallel Room West Box",
-                        "access_rules": ["bomb,claw"],
+                        "access_rules": ["bomb"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "Parallel Room East Box",
-                        "access_rules": ["bomb,claw"],
+                        "access_rules": ["bomb"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
@@ -721,7 +722,7 @@
                     },
                     {
                         "name": "Glitchy Collision Cave Box",
-                        "access_rules": ["bomb,claw"],
+                        "access_rules": ["bomb"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
