@@ -87,12 +87,8 @@ function onClear(slot_data)
         -- add snes interface functions here
     end
     -- Boxsanity checker, check to see if Level Forest - Middle Box location exists
+    Tracker:FindObjectForCode("boxsanity_enabled").Active = false
     for _, v in pairs(Archipelago.MissingLocations) do
-        if v == 4325418 then
-            Tracker:FindObjectForCode("boxsanity_enabled").Active = true
-        end
-    end
-    for _, v in pairs(Archipelago.CheckedLocations) do
         if v == 4325418 then
             Tracker:FindObjectForCode("boxsanity_enabled").Active = true
         end
