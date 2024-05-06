@@ -11,6 +11,17 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+local FIRSTSTAGE = {
+    [4325408] = 4325408, --steel sword
+    [4325411] = 4325411, --regular axe
+    [4325414] = 4325414, --catclaw
+    [4325417] = 4325417, --regular bomb
+    [4325423] = 4325423, --steel helm
+    [4325426] = 4325426, --steel armor
+    [4325433] = 4325433, --steel shield
+    [4325437] = 4325437 --charm
+}
+
 local SECONDSTAGE = {
     [4325409] = 4325409, --knight sword
     [4325412] = 4325412, --battle axe
@@ -126,7 +137,9 @@ function onItem(index, item_id, item_name, player_number)
         if v[2] == "toggle" then
             obj.Active = true
         elseif v[2] == "progressive" then
-            if (SECONDSTAGE[item_id] == item_id and obj.CurrentStage < 2) then
+            if (FIRSTSTAGE[item_id] == item_id and obj.CurrentStage > 1) then
+                --do nothing
+            elseif (SECONDSTAGE[item_id] == item_id and obj.CurrentStage < 2) then
                 obj.CurrentStage = 2
             elseif (THIRDSTAGE[item_id] == item_id and obj.CurrentStage < 3) then
                 obj.CurrentStage = 3
