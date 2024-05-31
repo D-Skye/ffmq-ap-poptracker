@@ -905,18 +905,21 @@
                     {
                         "name": "Gold Bar Room Leapfrog Alcove Box West",
                         "visibility_rules": ["boxsanity_enabled"],
+                        "access_rules": ["claw"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "Gold Bar Room Leapfrog Alcove Box East",
                         "visibility_rules": ["boxsanity_enabled"],
+                        "access_rules": ["claw"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "Exterior Center Dropoff Ledge Box",
                         "visibility_rules": ["boxsanity_enabled"],
+                        "access_rules": ["claw"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
