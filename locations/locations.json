@@ -444,25 +444,25 @@
                 "sections": [
                     {
                         "name": "B1 - Chest",
-                        "access_rules": ["bomb"]
+                        "access_rules": ["bomb,claw"]
                     },
                     {
                         "name": "B1 - West Box",
-                        "access_rules": ["bomb"],
+                        "access_rules": ["bomb,claw"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "B1 - North Box",
-                        "access_rules": ["bomb"],
+                        "access_rules": ["bomb,claw"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
                     },
                     {
                         "name": "B1 - East Box",
-                        "access_rules": ["bomb"],
+                        "access_rules": ["bomb,claw"],
                         "visibility_rules": ["boxsanity_enabled"],
                         "chest_unopened_img": "images/check_icons/box_closed.png",
                         "chest_opened_img": "images/check_icons/box_opened.png"
