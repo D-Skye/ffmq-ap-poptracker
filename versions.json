@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.8",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.8/ffmq-ap.zip",
+			"sha256": "93886B2146F967F5D6014F055D8F681DA565418C0B449566CE33943346F08657",
+			"changelog": [
+				"- fix: add claw to Ice Pyramid B1 logic",
+				"- fix: add claw to Reuben's House: Arion logic"
+			]
+		},			
+		{
 			"package_version": "0.5.7",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.7/ffmq-ap.zip",
 			"sha256": "D374B8E41AA57936950635FAC14CE00AF94240BDA70CFF2950AE1FECD9243841",
