@@ -1110,7 +1110,7 @@
             },
             {
                 "name": "Reuben's House: Arion",
-                "access_rules": ["rivercoin,megagrenade", "megagrenade,[rivercoin],$fireburg_expert_access"]
+                "access_rules": ["rivercoin,megagrenade,claw", "megagrenade,claw,[rivercoin],$fireburg_expert_access"]
             },
             {
                 "name": "Reuben's House: Box",
