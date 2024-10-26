@@ -1144,11 +1144,11 @@
         "name": "Spencer's Cave",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
-        "access_rules":["suncoin,thunderrock","[suncoin],$windia_expert_access,thunderrock","sandcoin,wakewater","[sandcoin],$aquaria_expert_access,wakewater"],
+        "access_rules":["suncoin,thunderrock,megagrenade","[suncoin],$windia_expert_access,thunderrock,megagrenade","sandcoin,wakewater","[sandcoin],$aquaria_expert_access,wakewater"],
         "sections": [
             {
                 "name": "Box",
-                "access_rules": ["wakewater,claw","thunderrock"],
+                "access_rules": ["wakewater,claw","suncoin,thunderrock,megagrenade","[suncoin],$windia_expert_access,thunderrock,megagrenade"],
                 "visibility_rules": ["boxsanity_enabled"],
                 "chest_unopened_img": "images/check_icons/box_closed.png",
                 "chest_opened_img": "images/check_icons/box_opened.png"
