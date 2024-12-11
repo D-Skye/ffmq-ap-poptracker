@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.5.10",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.10/ffmq-ap.zip",
+			"sha256": "CE2BF0DB003B37B960CB4CFBD4DFA6CF293B149AB0DC3446DEA763A7BA5505A5",
+			"changelog": [
+				"fix: minor typo for Pazuzu 6F top left staircase"
+			]
+		},
+		{
 			"package_version": "0.5.9",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.9/ffmq-ap.zip",
 			"sha256": "0DA88564AD51863369F4808156375EA52DAA16BA6DCB16FDEE34247A1EE01E5E",
