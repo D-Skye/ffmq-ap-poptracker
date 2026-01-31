@@ -104,6 +104,11 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("boxsanity_enabled").Active = true
         end
     end
+    for _, v in pairs(Archipelago.CheckedLocations) do
+        if v == 4325418 then
+            Tracker:FindObjectForCode("boxsanity_enabled").Active = true
+        end
+    end
 end
 
 -- called when an item gets collected
