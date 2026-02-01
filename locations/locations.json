@@ -5,18 +5,55 @@
         "chest_opened_img": "images/check_icons/chest_opened.png",
         "children": [
             {
+                "name": "Foresta South Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["foresta_south_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 170,
+                        "y": 550
+                    }
+                ]
+            },
+            {
                 "name": "Foresta West Battlefield",
                 "sections": [
                     {
                         "name": "Clear Battlefield",
                         "chest_unopened_img": "images/check_icons/battlefield.png",
-                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["foresta_west_bf"]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "overworld",
                         "x": 74,
+                        "y": 484
+                    }
+                ]
+            },
+            {
+                "name": "Foresta East Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["foresta_east_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 298,
                         "y": 484
                     }
                 ]
@@ -227,7 +264,8 @@
                     {
                         "name": "Clear Battlefield",
                         "chest_unopened_img": "images/check_icons/battlefield.png",
-                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["south_of_aquaria_bf"]
                     }
                 ],
                 "map_locations": [
@@ -245,14 +283,124 @@
                         "name": "Clear Battlefield",
                         "chest_unopened_img": "images/check_icons/battlefield.png",
                         "chest_opened_img": "images/check_icons/battlefield_complete.png",
-                        "access_rules": ["wakewater", "[wakewater],$fireburg_access,geminicrest,exitbook"]
+                        "access_rules": ["wakewater", "[wakewater],$fireburg_access,geminicrest,exitbook"],
+                        "visibility_rules": ["north_of_libra_temple_bf"]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "overworld",
                         "x": 522,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Aquaria Frozen Field Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "access_rules": ["wakewater", "[wakewater],$fireburg_access,geminicrest,exitbook"],
+                        "visibility_rules": ["aquaria_frozen_field_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 442,
                         "y": 243
+                    }
+                ]
+            },
+            {
+                "name": "South of Libra Temple Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["south_of_libra_temple_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 489,
+                        "y": 388
+                    }
+                ]
+            },
+            {
+                "name": "East of Libra Temple Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["east_of_libra_temple_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 601,
+                        "y": 293
+                    }
+                ]
+            },
+            {
+                "name": "South of Wintry Cave Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["south_of_wintry_cave_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 825,
+                        "y": 228
+                    }
+                ]
+            },
+            {
+                "name": "West of Wintry Cave Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["west_of_wintry_cave_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 762,
+                        "y": 197
+                    }
+                ]
+            },
+            {
+                "name": "Ice Pyramid Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["ice_pyramid_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 665,
+                        "y": 132
                     }
                 ]
             },
@@ -665,12 +813,31 @@
         "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access"],
         "children": [
             {
+                "name": "Path to Fireburg Southern Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["path_to_fireburg_southern_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 362,
+                        "y": 356
+                    }
+                ]
+            },
+            {
                 "name": "Path to Fireburg Central Battlefield",
                 "sections": [
                     {
                         "name": "Clear Battlefield",
                         "chest_unopened_img": "images/check_icons/battlefield.png",
-                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["path_to_fireburg_central_bf"]
                     }
                 ],
                 "map_locations": [
@@ -682,12 +849,49 @@
                 ]
             },
             {
+                "name": "Path to Fireburg Northern Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["path_to_fireburg_northern_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 362,
+                        "y": 211
+                    }
+                ]
+            },
+            {
+                "name": "Sealed Temple Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["sealed_temple_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 186,
+                        "y": 180
+                    }
+                ]
+            },
+            {
                 "name": "Mine Battlefield",
                 "sections": [
                     {
                         "name": "Clear Battlefield",
                         "chest_unopened_img": "images/check_icons/battlefield.png",
-                        "chest_opened_img": "images/check_icons/battlefield_complete.png"
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["mine_bf"]
                     }
                 ],
                 "map_locations": [
@@ -695,6 +899,24 @@
                         "map": "overworld",
                         "x": 90,
                         "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Boulder Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["boulder_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 201,
+                        "y": 116
                     }
                 ]
             },
@@ -1141,6 +1363,25 @@
         ]
     },
     {
+        "name": "Volcano Battlefield",
+        "sections": [
+            {
+                "name": "Clear Battlefield",
+                "chest_unopened_img": "images/check_icons/battlefield.png",
+                "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                "access_rules": ["rivercoin","[rivercoin],$fireburg_expert_access","sandcoin,wakewater"],
+                "visibility_rules": ["volcano_bf"]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "overworld",
+                "x": 441,
+                "y": 147
+            }
+        ]
+    },
+    {
         "name": "Spencer's Cave",
         "chest_unopened_img": "images/check_icons/chest_closed.png",
         "chest_opened_img": "images/check_icons/chest_opened.png",
@@ -1469,6 +1710,42 @@
                         "map": "overworld",
                         "x": 586,
                         "y": 646
+                    }
+                ]
+            },
+            {
+                "name": "Kaidge Temple Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["kaidge_temple_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 682,
+                        "y": 646
+                    }
+                ]
+            },
+            {
+                "name": "South of Windia Battlefield",
+                "sections": [
+                    {
+                        "name": "Clear Battlefield",
+                        "chest_unopened_img": "images/check_icons/battlefield.png",
+                        "chest_opened_img": "images/check_icons/battlefield_complete.png",
+                        "visibility_rules": ["south_of_windia_bf"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 761,
+                        "y": 630
                     }
                 ]
             },

@@ -44,6 +44,29 @@ local THIRDSTAGE = {
     [4325439] = 4325439 --cupid locket
 }
 
+local BATTLEFIELDS = {
+    [4325737] = "aquaria_frozen_field_bf",
+    [4325743] = "boulder_bf",
+    [4325731] = "east_of_libra_temple_bf",
+    [4325729] = "foresta_east_bf",
+    [4325727] = "foresta_south_bf",
+    [4325728] = "foresta_west_bf",
+    [4325735] = "ice_pyramid_bf",
+    [4325745] = "kaidge_temple_bf",
+    [4325742] = "mine_bf",
+    [4325736] = "north_of_libra_temple_bf",
+    [4325739] = "path_to_fireburg_central_bf",
+    [4325740] = "path_to_fireburg_northern_bf",
+    [4325738] = "path_to_fireburg_southern_bf",
+    [4325741] = "sealed_temple_bf",
+    [4325732] = "south_of_aquaria_bf",
+    [4325730] = "south_of_libra_temple_bf",
+    [4325746] = "south_of_windia_bf",
+    [4325733] = "south_of_wintry_cave_bf",
+    [4325744] = "volcano_bf",
+    [4325734] = "west_of_wintry_cave_bf"
+}
+
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -93,15 +116,34 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+
     -- manually run snes interface functions after onClear in case we are already ingame
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+
     -- Boxsanity checker, check to see if Level Forest - Middle Box location exists
     Tracker:FindObjectForCode("boxsanity_enabled").Active = false
     for _, v in pairs(Archipelago.MissingLocations) do
         if v == 4325418 then
             Tracker:FindObjectForCode("boxsanity_enabled").Active = true
+        end
+    end
+    for _, v in pairs(Archipelago.CheckedLocations) do
+        if v == 4325418 then
+            Tracker:FindObjectForCode("boxsanity_enabled").Active = true
+        end
+    end
+
+    -- toggle battlefield visibility
+    for _, v in pairs(Archipelago.MissingLocations) do
+        if BATTLEFIELDS[v] ~= nil then
+            Tracker:FindObjectForCode(BATTLEFIELDS[v]).Active = true
+        end
+    end
+    for _, v in pairs(Archipelago.CheckedLocations) do
+        if BATTLEFIELDS[v] ~= nil then
+            Tracker:FindObjectForCode(BATTLEFIELDS[v]).Active = true
         end
     end
 end

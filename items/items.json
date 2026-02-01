@@ -354,5 +354,105 @@
         "type": "toggle",
         "img": "images/check_icons/box_closed.png",
         "codes": "boxsanity_enabled"
+    },
+    {
+        "name": "Aquaria Frozen Field Battlefield Active",
+        "type": "toggle",
+        "codes": "aquaria_frozen_field_bf"
+    },
+    {
+        "name": "Boulder Battlefield Active",
+        "type": "toggle",
+        "codes": "boulder_bf"
+    },
+    {
+        "name": "East of Libra Temple Battlefield Active",
+        "type": "toggle",
+        "codes": "east_of_libra_temple_bf"
+    },
+    {
+        "name": "Foresta East Battlefield Active",
+        "type": "toggle",
+        "codes": "foresta_east_bf"
+    },
+    {
+        "name": "Foresta South Battlefield Active",
+        "type": "toggle",
+        "codes": "foresta_south_bf"
+    },
+    {
+        "name": "Foresta West Battlefield Active",
+        "type": "toggle",
+        "codes": "foresta_west_bf"
+    },
+    {
+        "name": "Ice Pyramid Battlefield Active",
+        "type": "toggle",
+        "codes": "ice_pyramid_bf"
+    },
+    {
+        "name": "Kaidge Temple Battlefield Active",
+        "type": "toggle",
+        "codes": "kaidge_temple_bf"
+    },
+    {
+        "name": "Mine Battlefield Active",
+        "type": "toggle",
+        "codes": "mine_bf"
+    },
+    {
+        "name": "North of Libra Temple Battlefield Active",
+        "type": "toggle",
+        "codes": "north_of_libra_temple_bf"
+    },
+    {
+        "name": "Path to Fireburg Central Battlefield Active",
+        "type": "toggle",
+        "codes": "path_to_fireburg_central_bf"
+    },
+    {
+        "name": "Path to Fireburg Northern Battlefield Active",
+        "type": "toggle",
+        "codes": "path_to_fireburg_northern_bf"
+    },
+    {
+        "name": "Path to Fireburg Southern Battlefield Active",
+        "type": "toggle",
+        "codes": "path_to_fireburg_southern_bf"
+    },
+    {
+        "name": "Sealed Temple Battlefield Active",
+        "type": "toggle",
+        "codes": "sealed_temple_bf"
+    },
+    {
+        "name": "South of Aquaria Battlefield Active",
+        "type": "toggle",
+        "codes": "south_of_aquaria_bf"
+    },
+    {
+        "name": "South of Libra Temple Battlefield Active",
+        "type": "toggle",
+        "codes": "south_of_libra_temple_bf"
+    },
+    {
+        "name": "South of Windia Battlefield Active",
+        "type": "toggle",
+        "codes": "south_of_windia_bf"
+    },
+    {
+        "name": "South of Wintry Cave Battlefield Active",
+        "type": "toggle",
+        "codes": "south_of_wintry_cave_bf"
+    },
+    {
+        "name": "Volcano Battlefield Active",
+        "type": "toggle",
+        "codes": "volcano_bf"
+    },
+    {
+        "name": "West of Wintry Cave Battlefield Active",
+        "type": "toggle",
+        "codes": "west_of_wintry_cave_bf"
     }
 ]
