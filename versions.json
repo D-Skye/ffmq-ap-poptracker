@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "0.6.0",
+			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.6.0/ffmq-ap.zip",
+			"sha256": "7eaa9527ae379ab27830d9d50a31d6d3d61baa9f22be37aeed8f498179686ddd",
+			"changelog": [
+				"add: Battlefield shuffle support. Battlefields with AP items in them should now automatically appear on the map after connecting to AP server",
+				"fix: boxsanity should automatically be enabled on connect, even if you collect Level Forest - Middle Box"
+			]
+		},
+		{
 			"package_version": "0.5.10",
 			"download_url": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/download/v0.5.10/ffmq-ap.zip",
 			"sha256": "CE2BF0DB003B37B960CB4CFBD4DFA6CF293B149AB0DC3446DEA763A7BA5505A5",
